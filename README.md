@@ -2,22 +2,19 @@
 
 This page hosts the main viewing page for the CYOA's and related tools.
 
-The repo's for the actual codes are here:
--
--
--
+The git repo's for the actual source code are here:
+
+- [CYOA React App](https://github.com/aronedwards91/CYOA-Viewer)
+- [Journal](https://github.com/aronedwards91/CYOA-Journal)
+- [Form Builder](https://github.com/aronedwards91/CYOA-Form)
+
 ## Build Process
 
 - For react build, Copy cyoa into assets, move static assets to build root
 
-## Todo
-
-- add cyoas
-- test exported cyoa as subpage in public
-
 ## CLI Commands
 
-``` bash
+```bash
 # install dependencies
 npm install
 
@@ -32,3 +29,4 @@ npm run serve
 
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+```
