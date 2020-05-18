@@ -6,9 +6,13 @@ The repo's for the actual codes are here:
 -
 -
 -
+## Build Process
+
+- For react build, Copy cyoa into assets, move static assets to build root
 
 ## Todo
 
+- add cyoas
 - test exported cyoa as subpage in public
 
 ## CLI Commands
@@ -26,8 +30,5 @@ npm run build
 # test the production build locally
 npm run serve
 
-# run tests with jest and preact-render-spy 
-npm run test
-```
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
