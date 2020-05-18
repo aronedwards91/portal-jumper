@@ -1,0 +1,18 @@
+@import "./palette.less";
+
+.fontStyle {
+    font-family: 'Sulphur Point', sans-serif;
+    color: @color-highlight;
+}
+.fontBasic {
+    .fontStyle();
+    font-size: 1em;
+}
+.fontShadow {
+    .fontStyle();
+    text-shadow: 1px 1px 3px @color-primary-4, 0 0 0 @color-primary-1, 1px 1px 4px @color-primary-4;
+}
+.fontLarge {
+    .fontShadow();
+    font-size: 2em;
+}
