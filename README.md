@@ -11,7 +11,7 @@ The git repo's for the actual source code are here:
 ## Build Process
 
 - For react build, 
-- Pre: rename /static folder in webpack config to eg: `build/assets/cyoa-pokemon/static`, Copy cyoa into assets,
+- Pre: rename /static folder in webpack config to eg: `assets/cyoa-pokemon/static`, Copy cyoa into assets,
 - Post build: move static assets from inside cyoa folder to build root/static
 
 ## Todo 
